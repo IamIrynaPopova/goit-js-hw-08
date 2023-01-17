@@ -8,7 +8,7 @@ const getlocalStorageValue = localStorage.getItem(LOCALSTORAGE_KEY);
 const timeValue = JSON.parse(getlocalStorageValue);
 
 const onPlay = function (data) {
-    console.log(data);
+    // console.log(data);
     localStorage.setItem(LOCALSTORAGE_KEY, JSON.stringify(data));
 };
 
